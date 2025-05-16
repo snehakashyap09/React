@@ -1,0 +1,16 @@
+.gold{
+  color: gold;
+  
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(86, 78, 78);
+}
+
+span{
+  font-size: 3rem;
+  cursor: pointer;
+}
