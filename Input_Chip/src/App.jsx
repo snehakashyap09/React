@@ -2,7 +2,7 @@ import React from 'react'
 import Chip from './chip'
 const App = () => {
   return (
-    <div>
+    <div >
       <Chip/>
     </div>
   )
