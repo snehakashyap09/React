@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import "./App.css"
 function TodoList() {
   const [input, setInput] = useState("");
   const [todos, setTodos] = useState([]);
@@ -29,7 +29,7 @@ function TodoList() {
   setTodos(todos.filter(todo => todo.id != id))
 }
     return (
-        <div  style={{maxWidth :"400px",margin:"auto", padding:"90px"}}>
+        <div  style={{maxWidth :"400px",margin:"auto"}}>
         <h2>Todo List</h2>
         <input
           type="text"
